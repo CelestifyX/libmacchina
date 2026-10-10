@@ -706,6 +706,7 @@ impl std::fmt::Display for PackageManager {
             PackageManager::Nix => write!(f, "nix"),
             PackageManager::Winget => write!(f, "winget"),
             PackageManager::Chocolatey => write!(f, "choco"),
+            PackageManager::Emerald => write!(f, "Emerald"),
         }
     }
 }
