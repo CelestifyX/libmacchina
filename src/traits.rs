@@ -681,6 +681,7 @@ pub enum PackageManager {
     Nix,
     Winget,
     Chocolatey,
+    Emerald,
 }
 
 impl std::fmt::Display for PackageManager {
